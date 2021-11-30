@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Currency Converter</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div class="main-wrapper">
+        <div class="container">
+            <header>Currency Converter</header>
+            <form action="#" class="form">
+                <div class="amount">
+                    <p>Enter Amount:</p>
+                    <input type="text" value="1">
+                </div>
+                <div class="drop-list">
+                    <div class="from">
+                        <p>From</p>
+                        <div class="select-box">
+                            <img src="https://flagcdn.com/w40/us.png" alt="flag">
+                            <select>
+                                <option value="USD">USD</option>
+                                <option value="UAH">UAH</option>
+                                <option value="EUR">EUR</option>
+                                <option value="PLN">PLN</option>
+                                <option value="GBP">GBP</option>
+                                <option value="RUB">RUB</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="icon switch-btn">
+                        <img src="assets/switch.png" alt="switch">
+                    </div>
+                    <div class="to">
+                        <p>To</p>
+                        <div class="select-box">
+                            <img src="https://flagcdn.com/w40/ua.png" alt="flag">
+                            <select>
+                                <option value="UAH">UAH</option>
+                                <option value="USD">USD</option>
+                                <option value="EUR">EUR</option>
+                                <option value="PLN">PLN</option>
+                                <option value="GBP">GBP</option>
+                                <option value="RUB">RUB</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="exchange-rate">
+                    1 USD = 27 UAH
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="assets/country-code.js"></script>
+    <script src="assets/script.js"></script>
+</body>
+</html>
