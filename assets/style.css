@@ -70,6 +70,10 @@ header h1 {
     margin: 1rem .5rem 0 .5rem;
     cursor: pointer
 }
+.switch-btn img {
+    max-width: 24px;
+    height: auto
+}
 .select-box {
     background-color: #444450;
     border-radius: 4px;
@@ -80,17 +84,20 @@ header h1 {
 }
 .select-box select {
     background: transparent;
+    border-radius: 4px;
     color: #fff;
     padding: 4px;
     border: none;
     margin-left: 5px;
-    outline: none
+    outline: none;
+    cursor: pointer;
+    transition: .2s;
 }
-.select-box select:focus {
-    border: 1px solid #fff;
+.select-box select:hover {
+    background: #6f6f7c;
 }
 .select-box select option {
-    color: #333;
+    color: #fff;
 }
 .exchange-rate {
     width: 100%;
