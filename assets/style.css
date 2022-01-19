@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+.main-wrapper {
+    padding: 2rem 0;
+    min-height: 100vh;
+    background: #005C97;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 2rem 1rem;
+    -webkit-backdrop-filter: blur(10px);
+     backdrop-filter: blur(10px);
+    background-color: #252526;
+    box-shadow: 0 8px 16px rgb(0 0 0 / 10%);
+    color: #fff
+}
+header h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #f1d03b;
+    text-shadow: 0 8px 16px rgb(0 0 0 / 20%);
+    font-weight: 300;
+}
+.amount {
+    margin: 2rem 0;
+}
+.amount p {
+    font-size: .9rem;
+    opacity: .7;
+    font-weight: 300;
+}
+.amount input {
+    margin: 10px 0;
+    width: 100%;
+    height: 50px;
+    padding-left: 10px;
+    font-size: 1.8rem;
+    border-radius: 6px;
+    border: 1px solid #fff;
+    outline: none;
+    color: #fff;
+    background-color: transparent;
+}
+.drop-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.from p, .to p {
+    font-size: 0.9rem;
+    opacity: .8;
+}
+.switch-btn {
+    display: flex;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: #444450;
+    margin: 1rem .5rem 0 .5rem;
+    cursor: pointer
+}
+.switch-btn img {
+    max-width: 24px;
+    height: auto
+}
+.select-box {
+    background-color: #444450;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    margin: .5rem 0;
+}
+.select-box select {
+    background: transparent;
+    border-radius: 4px;
+    color: #fff;
+    padding: 4px;
+    border: none;
+    margin-left: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: .2s;
+}
+.select-box select:hover {
+    background: #6f6f7c;
+}
+.select-box select option {
+    color: #fff;
+    background: #6f6f7c;
+}
+.exchange-rate {
+    width: 100%;
+    background: linear-gradient(60deg, #bb9f23, #E56D33);
+    border-radius: 4px;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    box-shadow: 0 8px 16px rgb(0 0 0 / 10%);
+    text-shadow: 0 8px 16px rgb(0 0 0 / 20%);
+}
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+    opacity: .8;
+    margin-top: 2rem;
+}
+footer a {
+    color: inherit
+}
+.copy {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 2rem;
+}
+.copy a {
+    color: rgb(243, 123, 123);
+}
